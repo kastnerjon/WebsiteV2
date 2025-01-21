@@ -55,6 +55,7 @@ body {
     border-radius: 5px;
     font-size: 1rem;
     transition: background 0.3s, color 0.3s;
+    margin-top: 8px;
 }
 
 .hero .social-icons a:hover {
@@ -119,7 +120,7 @@ body {
     height: 150px; /* Keep proportions */
     object-fit: cover; /* Ensures the image scales correctly */
     border: 3px solid #333; /* Optional: Add a border */
-    margin-bottom: 17px; /* makes space between image and tagline */
+    margin-bottom: 11px; /* makes space between image and tagline */
 }
 
 /* Contact Section */
