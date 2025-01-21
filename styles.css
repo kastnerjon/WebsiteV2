@@ -47,7 +47,9 @@ h2 {
 .hero h1 {
     font-size: 2.5rem; /* Larger font for the name */
     margin-bottom: 1rem;
+    color: white; /* Set text color to white */
 }
+
 
 .hero p {
     font-size: 1.2rem; /* Adjust size of description */
