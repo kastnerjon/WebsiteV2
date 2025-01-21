@@ -162,6 +162,25 @@ h2 {
     text-align: left;
 }
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0rem; /* Add spacing above icons */
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: white; /* White social icons */
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #80b3ff; /* Lighter blue on hover */
+}
+
 /* Footer */
 footer {
     text-align: center;
