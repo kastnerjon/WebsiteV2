@@ -117,7 +117,7 @@ h2 {
     display: flex; /* Enables Flexbox */
     justify-content: center; /* Centers text horizontally */
     align-items: center; /* Centers text vertically */
-    min-height: 100px; /* Increase height for better vertical centering */
+    min-height: 60px; /* Increase height for better vertical centering */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 
