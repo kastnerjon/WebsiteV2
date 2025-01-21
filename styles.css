@@ -71,7 +71,6 @@ body {
 
 /* About Section */
 .about {
-    max-width: 850px
     padding: 4rem 2rem;
     text-align: center;
     background-color: #ffffff; /* Background for the about section */
