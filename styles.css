@@ -61,11 +61,11 @@ body {
 
 /* About Section */
 .about {
-    max-width: 850px;
+    max-width: 825px;
     margin: 0 auto;
     padding: 2rem;
     text-align: left;
-    font-size: 1.1rem; /* Define text size (default: 16px if 1rem) */
+    font-size: 0.9rem; /* Define text size (default: 16px if 1rem) */
     line-height: 1.25; /* Adjust line spacing */
 }
 
