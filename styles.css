@@ -119,7 +119,7 @@ body {
     height: 150px; /* Keep proportions */
     object-fit: cover; /* Ensures the image scales correctly */
     border: 3px solid #333; /* Optional: Add a border */
-    margin-bottom: 2rem; /* makes space between image and tagline */
+    margin-bottom: 17px; /* makes space between image and tagline */
 }
 
 /* Contact Section */
