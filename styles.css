@@ -18,7 +18,17 @@ body {
     text-align: center;
     background-color: #002d6b; /* Blue background */
     color: white;
-    padding: 4rem 2rem;
+    padding: 5rem 2rem; /* Increase spacing for better formatting */
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Larger font for the name */
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem; /* Adjust size of description */
+    margin-bottom: 2rem; /* Add spacing below text */
 }
 
 .circular-image {
@@ -26,14 +36,27 @@ body {
     width: 180px;
     height: 180px;
     object-fit: cover;
-    margin-bottom: 1rem;
+    margin: 1rem 0 1.5rem 0; /* Add spacing above and below */
 }
 
 /* Social Icons */
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
+    margin-top: 1rem; /* Add spacing above icons */
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: white; /* White social icons */
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #80b3ff; /* Lighter blue on hover */
 }
 
 /* About Section */
