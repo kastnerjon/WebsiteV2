@@ -80,6 +80,7 @@ body {
     max-width: 850px;
     margin: 0 auto;
     padding: 2rem;
+    text-align: center;
 }
 
 .skill-grid {
@@ -93,6 +94,10 @@ body {
     padding: 1rem;
     border-radius: 5px;
     text-align: center;
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers text horizontally */
+    align-items: center; /* Centers text vertically */
+    height: 150px; /* Ensure consistent height for vertical centering */
 }
 
 /* Contact Section */
