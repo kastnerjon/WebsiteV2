@@ -162,24 +162,28 @@ h2 {
     text-align: left;
 }
 
-.social-icons {
+
+
+.contact.social-icons {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
     margin-top: 0rem; /* Add spacing above icons */
 }
 
-.social-icons a {
+.contact.contact .social-icons a {
     font-size: 1.5rem;
-    color: white; /* White social icons */
+    color: #002d6b; /* Same blue as the hero section background */
     text-decoration: none;
     transition: transform 0.3s, color 0.3s;
 }
 
-.social-icons a:hover {
+.contact.social-icons a:hover {
     transform: scale(1.2);
-    color: #80b3ff; /* Lighter blue on hover */
+    color: #00509e; /* Slightly lighter blue for hover effect */
 }
+
+
 
 /* Footer */
 footer {
