@@ -25,31 +25,32 @@ body {
 }
 
 
+
 /* Hero Section */
 .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Makes the section cover the full viewport height */
-    background: linear-gradient(135deg, #e4e1ff, #c4b9ff); /* Continuous gradient background */
+    height: 100vh;
+    background: linear-gradient(135deg, #e4e1ff, #c4b9ff);
     color: #333;
     text-align: center;
     padding: 2rem;
-    margin: 0; /* Remove extra margins */
+    margin: 0;
 }
 
 .hero h1 {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    color: #333; /* Dark text for contrast */
+    color: #333;
 }
 
 .hero p {
     font-size: 1.5rem;
     font-weight: 500;
-    color: #6c63ff; /* Lighter purple for subtitle */
+    color: #6c63ff;
     margin-bottom: 2rem;
 }
 
@@ -60,15 +61,15 @@ body {
 }
 
 .hero .social-icons a {
-    font-size: 1.2rem;
+    font-size: 2rem; /* Adjust icon size */
     color: #6c63ff;
     text-decoration: none;
     transition: transform 0.2s, color 0.2s;
 }
 
 .hero .social-icons a:hover {
-    transform: scale(1.2); /* Subtle zoom effect */
-    color: #4a42d4; /* Slightly darker shade on hover */
+    transform: scale(1.2);
+    color: #4a42d4;
 }
 
 
