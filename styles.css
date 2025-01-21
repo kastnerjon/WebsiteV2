@@ -81,6 +81,7 @@ body {
 .about {
     padding: 2rem;
     margin-bottom: 2rem;
+    margin: 0 auto;
 }
 
 .about h2 {
