@@ -21,11 +21,13 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh; /* Full viewport height */
-    width: 100%; /* Full width of screen */
+    width: 100vw; /* Full width of the viewport */
     background: linear-gradient(135deg, #001f54, #003d99); /* Royal navy blue gradient */
     color: white; /* White text for contrast */
     text-align: center;
     padding: 2rem;
+    margin: 0;
+    position: relative;
 }
 
 .hero h1 {
@@ -67,7 +69,7 @@ body {
     color: #80b3ff; /* Lighter blue on hover */
 }
 
-/* Container */
+/* Container (Remove Width Restriction for Hero) */
 .container {
     width: 90%;
     max-width: 850px;
