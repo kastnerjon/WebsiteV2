@@ -6,87 +6,48 @@
 }
 
 body {
-    font-family: 'Calibri', 'Arial', 'Helvetica', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-size: 14px;
-    line-height: 1.3;
+    line-height: 1.5;
     background: #fafafa;
     color: #333;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure body fills the entire viewport */
+    min-height: 100vh;
     margin: 0;
 }
 
-/* Main Content Styling */
-main {
-    width: 100%;
-    max-width: 850px;
-    margin: 0 auto; /* Center horizontally */
-    padding: 2rem 0; /* Padding for spacing */
-    flex: 1; /* Ensures the content area grows to fill space */
-    display: flex; /* Use flexbox for alignment */
-    flex-direction: column; /* Stack content vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    text-align: center; /* Center text */
-    min-height: 100vh; /* Ensure it fills the viewport */
-}
-
-/* Typography */
-h1 {
-    font-size: 2rem;
-    margin-top: 25px;
-    margin-bottom: 1rem;
-    color: #333;
-    text-align: center; /* Center the heading */
-}
-
-h2 {
-    font-size: 1.45rem;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    color: #330;
-    text-align: center; /* Center the heading */
-}
-
-p {
-    font-size: 1.15rem;
-    margin-bottom: 0.5rem;
-    color: #1a1a1a;
-    text-align: center; /* Center paragraph text */
-}
-
-/* Navigation Styling */
-header nav {
-    position: relative;
+/* Hero Section */
+.hero {
     display: flex;
-    gap: 15px; /* Adds spacing between nav items */
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #002d6b; /* Hero section background color */
+    color: white; /* Text color */
+    height: 100vh; /* Full height of the viewport */
+    width: 100%; /* Full width */
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
 
-header nav a {
-    color: #2b2b2b; /* Dark grey color for the text */
-    text-decoration: none; /* Removes underline from links */
-    font-size: 1rem; /* Set readable font size */
-    font-weight: 500; /* Slightly bold for emphasis */
-    padding: 5px 10px; /* Add padding for clickability */
-    transition: color 0.3s ease; /* Smooth color transition */
-}
-
-header nav a:hover {
-    color: #007bff; /* Hover color */
-}
-
-/* Profile Image */
-img {
-    display: block; /* Ensures the image behaves like a block element */
-    margin: 0 auto; /* Centers the image horizontally */
-    border-radius: 50%; /* Makes the image circular */
-    width: 180px; /* Adjust size as needed */
-    height: 180px; /* Keep proportions */
-    object-fit: cover; /* Ensures the image scales correctly */
-    margin-bottom: 1.5rem; /* Adds spacing below the image */
+.centered-img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 1rem;
 }
 
 /* Social Icons */
@@ -98,7 +59,7 @@ img {
 
 .social-icons a {
     font-size: 1.5rem;
-    color: #333; /* Set a visible default color */
+    color: white;
     text-decoration: none;
     transition: transform 0.3s, color 0.3s;
 }
@@ -108,51 +69,58 @@ img {
     color: #80b3ff; /* Lighter blue on hover */
 }
 
+/* About Section */
+.about {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #ffffff; /* Background for the about section */
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #002d6b; /* Dark blue color for headings */
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 0 auto; /* Center text container */
+}
+
 /* Footer */
 footer {
-    text-align: center; 
+    text-align: center;
     font-size: 0.9rem;
     color: #555;
     padding: 1rem 0;
+    width: 100%;
+    background: #fafafa;
     margin-top: auto; /* Push footer to the bottom of the viewport */
-    width: 100%; /* Ensure footer spans the full width */
-    background: #fafafa; /* Matches page background */
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically (if needed) */
 }
 
-/* Responsive Design for Mobile */
+/* Responsive Design */
 @media (max-width: 768px) {
-    main {
-        padding: 1rem; /* Reduce padding for smaller screens */
+    .hero h1 {
+        font-size: 2rem;
     }
 
-    header nav {
-        flex-direction: row; /* Stack nav links vertically */
-        gap: 10px; /* Adjust spacing between links */
+    .hero p {
+        font-size: 1rem;
     }
 
-    header nav a {
-        font-size: 0.9rem; /* Reduce font size for mobile */
-        padding: 5px 20px;
-    }
-
-    h1 {
-        font-size: 1.5rem; /* Adjust heading size for mobile */
-    }
-
-    p {
-        font-size: 0.9rem; /* Adjust paragraph font size */
-    }
-
-    img {
-        width: 140px; /* Smaller profile image */
+    .centered-img {
+        width: 140px;
         height: 140px;
     }
 
-    footer {
-        font-size: 0.8rem; /* Reduce footer text size */
+    .about h2 {
+        font-size: 1.5rem;
+    }
+
+    .about p {
+        font-size: 1rem;
     }
 }
