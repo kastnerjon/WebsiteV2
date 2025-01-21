@@ -18,8 +18,14 @@ body {
     text-align: center;
     background-color: #002d6b; /* Blue background */
     color: white;
-    padding: 5rem 2rem; /* Increase spacing for better formatting */
+    height: 100vh; /* Makes the hero section fill the viewport */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 2rem; /* Maintain padding for spacing */
 }
+
 
 .hero h1 {
     font-size: 2.5rem; /* Larger font for the name */
