@@ -36,7 +36,7 @@ body {
     width: 180px;
     height: 180px;
     object-fit: cover;
-    margin: 1rem 0 1.5rem 0; /* Add spacing above and below */
+    margin: 0rem 0 1.5rem 0; /* Add spacing above and below */
 }
 
 /* Social Icons */
