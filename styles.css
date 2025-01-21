@@ -13,6 +13,23 @@ body {
     color: #333;
 }
 
+h1 {
+    font-size: 1.5rem; /* Adjust the size */
+    font-weight: 600; /* Make it semi-bold */
+    color: #333; /* Set text color */
+    margin-bottom: 1rem; /* Add spacing below */
+    text-align: left;    
+}
+
+h2 {
+    font-size: 1.5rem; /* Adjust the size */
+    font-weight: 600; /* Make it semi-bold */
+    color: #333; /* Set text color */
+    margin-bottom: 1rem; /* Add spacing below */
+    text-align: center;
+}
+
+
 /* Hero Section */
 .hero {
     text-align: center;
@@ -80,7 +97,6 @@ body {
     max-width: 850px;
     margin: 0 auto;
     padding: 2rem;
-    text-align: center;
 }
 
 .skill-grid {
