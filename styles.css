@@ -192,3 +192,9 @@ footer {
     background: #fafafa;
     color: #555;
 }
+
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        text-align: center; /* Center the header text only on mobile */
+    }
+}
